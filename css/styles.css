@@ -1,0 +1,63 @@
+@font-face {
+  font-family: "rockwell";
+  src: url("../assets/font/rockwell-normal.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "rockwell";
+  src: url("../assets/font/rockwell-bold.ttf");
+  font-weight: bold;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  font-family: "rockwell";
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: bold;
+}
+
+.theme {
+  min-height: 100vh;
+  background: rgb(2, 48, 43);
+  background: linear-gradient(
+    180deg,
+    rgba(2, 48, 43, 1) 36%,
+    rgba(24, 56, 83, 1) 100%
+  );
+}
+
+#light-switch:checked + .theme {
+  background: rgb(242, 210, 114);
+  background: linear-gradient(
+    180deg,
+    rgba(242, 210, 114, 0.6982143199076505) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
+}
+
+.desktop-only {
+  display: none;
+}
+
+@media screen and (min-width: 767px) {
+  .mobile-only {
+    display: none;
+  }
+
+  .desktop-only {
+    display: block;
+  }
+}
