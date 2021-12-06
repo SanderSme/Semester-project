@@ -1,0 +1,70 @@
+.about-container {
+  max-width: 93%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.heading {
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #fff;
+  width: 100%;
+}
+
+.slogan {
+  margin-top: -1rem;
+}
+
+.text {
+  color: #fff;
+}
+
+.info {
+  text-align: left;
+  margin-bottom: 2rem;
+}
+
+.link {
+  color: #f2d272;
+}
+
+.sub-heading {
+  margin-top: 3rem;
+}
+
+.location {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.location-info {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-left: 2rem;
+}
+
+.about-button {
+  padding: 1rem 3.2rem;
+  background-color: #f2d272;
+  text-decoration: none;
+  color: #000;
+  border-radius: 20px;
+  border: 1px solid #000;
+}
+
+.info {
+  text-align: left;
+}
+
+.cafe {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.cafe-pic {
+  width: 50%;
+  height: 50%;
+  margin: 3rem 2rem 2rem 0;
+}
