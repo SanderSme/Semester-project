@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/header.css" />
+    <link rel="stylesheet" href="./css/footer.css" />
+    <link rel="stylesheet" href="./css/contact.css" />
+    <title>Contact</title>
+  </head>
+  <body>
+    <label for="light-switch" class="light-switch-icon moon"
+      ><i class="fas fa-moon"></i
+    ></label>
+    <label for="light-switch" class="light-switch-icon sun"
+      ><i class="fas fa-sun"></i
+    ></label>
+    <input type="checkbox" id="light-switch" />
+    <div class="theme">
+      <header class="header">
+        <div class="header-content">
+          <div class="header-section mobile-only">
+            <label for="hamburger-menu" class="hamburger-menu-icon mobile-only">
+              <i class="fas fa-bars"></i>
+            </label>
+            <div class="hamburger-menu-dropdown">
+              <input id="hamburger-menu" type="checkbox" />
+              <ul class="app-navigation-drawer mobile-only">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="explore.html">Explore</a></li>
+                <li><a href="exhibition-spaces.html">Exhibition spaces</a></li>
+                <li><a href="special-events.html">Special events</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="about-us.html">About us</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="header-section">
+            <span class="logo">
+              <a href="/"
+                ><img
+                  src="./assets/img/logo-svg-white.svg"
+                  alt="museum logo"
+                  class="logo-white" /><img
+                  src="./assets/img/logo-svg-black.svg"
+                  alt="museum logo"
+                  class="logo-black"
+              /></a>
+            </span>
+          </div>
+          <div class="header-section mobile-only"></div>
+          <div class="navigation-desktop desktop-only">
+            <a href="/" class="navigation-item">Home</a>
+            <a href="about-us.html" class="navigation-item">About us</a>
+            <label class="menu-desktop navigation-item" for="menu-desktop"
+              >Menu</label
+            >
+            <input type="checkbox" name="menu" id="menu-desktop" />
+            <ul class="dropdown-menu-desktop">
+              <li><a href="explore.html">Explore</a></li>
+              <li><a href="exhibition-spaces.html">Exhibition spaces</a></li>
+              <li><a href="special-events.html">Special events</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <main>
+        <div class="contact-container">
+          <h1 class="heading text">Contact</h1>
+          <h3 class="sub-heading text">Write to us:</h3>
+          <div class="contact-form">
+            <div class="phone-email form-info">
+              <label for="phone-email" class="form-title text"
+                >Phone/E-Mail:</label
+              >
+              <input
+                type="text"
+                name="phone-email"
+                id="phone-email"
+                class="phone-email form"
+              />
+            </div>
+            <div class="names">
+              <div class="first-name form-info">
+                <label for="first-name" class="form-title text"
+                  >First name:</label
+                >
+                <input
+                  type="text"
+                  name="first-name"
+                  id="first-name"
+                  class="first-name form"
+                />
+              </div>
+              <div class="last-name form-info">
+                <label for="last-name" class="form-title text"
+                  >Last name:</label
+                >
+                <input
+                  type="text"
+                  name="last-name"
+                  id="last-name"
+                  class="last-name form"
+                />
+              </div>
+            </div>
+            <div class="message form-info">
+              <label for="message" class="form-title text">Message:</label>
+              <input
+                type="text"
+                name="message"
+                id="message"
+                class="message form"
+              />
+            </div>
+          </div>
+        </div>
+      </main>
+      <footer class="footer">
+        <div class="footer-content">
+          <div class="footer-section">
+            <img
+              src="./assets/img/logo-svg-white.svg"
+              alt="science-museum"
+              class="logo-white footer-logo"
+            />
+            <img
+              src="./assets/img/logo-svg-black.svg"
+              alt="science-museum"
+              class="logo-black footer-logo"
+            />
+          </div>
+          <div class="footer-flex-container">
+            <div class="footer-section">
+              <h3 class="footer-heading">Follow us:</h3>
+              <div class="footer-info">
+                <p>Facebook</p>
+                <p>Twitter</p>
+                <p>Instagram</p>
+              </div>
+            </div>
+            <div class="footer-section">
+              <h3 class="footer-heading">Shortcuts:</h3>
+              <div class="footer-info">
+                <a href="contact.html" class="footer-links">Contact</a>
+                <a href="about-us.html" class="footer-links">About us</a>
+                <a href="explore.html" class="footer-links">Explore</a>
+              </div>
+            </div>
+            <div class="footer-section">
+              <h3 class="footer-heading">Community Schience Museum</h3>
+              <p class="footer-slogan">Explore together</p>
+              <p>Phone: 12345678</p>
+              <p>E-Mail: mail@CSMuseum.com</p>
+              <p>Adsress: Museumroad 1, 0123 Oslo</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

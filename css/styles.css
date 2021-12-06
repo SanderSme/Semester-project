@@ -39,6 +39,16 @@ h5 {
   );
 }
 
+.heading {
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #fff;
+  width: 100%;
+}
+
+.text {
+  color: #fff;
+}
+
 #light-switch:checked + .theme {
   background: rgb(242, 210, 114);
   background: linear-gradient(

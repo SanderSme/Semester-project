@@ -68,3 +68,75 @@
   height: 50%;
   margin: 3rem 2rem 2rem 0;
 }
+
+@media screen and (min-width: 767px) {
+  .admission-opening-hours-flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .accessebility-shop-flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .about-container {
+    max-width: 1110px;
+  }
+
+  .museum-container {
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  .admission {
+    width: 40%;
+  }
+
+  .accessibility {
+    width: 40%;
+  }
+
+  .shop {
+    width: 40%;
+  }
+
+  .opening-hours {
+    width: 30%;
+  }
+
+  .sub-heading {
+    text-align: center;
+  }
+
+  .location {
+    justify-content: space-around;
+    width: 30%;
+  }
+
+  .location-info {
+    margin-left: 1rem;
+  }
+
+  .visit-heading {
+    text-align: center;
+  }
+
+  .cafe-pic {
+    width: 30%;
+  }
+
+  .cafe-info {
+    width: 40%;
+  }
+
+  .cafe {
+    justify-content: space-around;
+  }
+
+  .info {
+    margin-left: 1rem;
+  }
+}

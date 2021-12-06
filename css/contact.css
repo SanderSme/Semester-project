@@ -1,0 +1,51 @@
+.contact-container {
+  margin: 0 auto;
+  width: 93%;
+  text-align: center;
+}
+
+.form-info {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+
+.names {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.first-name {
+  width: 100%;
+  margin-right: 1rem;
+}
+
+.last-name {
+  width: 100%;
+}
+
+.contact-form {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.form-title {
+  text-align: left;
+  margin-bottom: 0.5rem;
+}
+
+.message {
+  height: 15rem;
+  margin-bottom: 2rem;
+}
+
+@media screen and (min-width: 767px) {
+  .contact-container {
+    max-width: 1110px;
+  }
+
+  .contact-form {
+    width: 50%;
+  }
+}
