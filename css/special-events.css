@@ -1,0 +1,36 @@
+.events-container {
+  width: 93%;
+  margin: 0 auto;
+}
+
+.events-section {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem auto 7rem auto;
+  width: 80%;
+}
+
+.events-pic {
+  border-radius: 20px;
+}
+
+.sub-heading {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+@media screen and (min-width: 767px) {
+  .events-container {
+    max-width: 1110px;
+  }
+
+  .events-section {
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .events-info {
+    width: 50%;
+  }
+}

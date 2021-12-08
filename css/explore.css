@@ -1,0 +1,37 @@
+.hero-banner {
+  height: 342px;
+  width: 100%;
+  background-image: url("../assets/img/explore-hero.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  z-index: 10;
+}
+
+.explore-container {
+  width: 93%;
+}
+
+.explore-heading {
+  color: #fff;
+  border-bottom: 2px solid #fff;
+  padding-bottom: 0.5rem;
+  text-align: center;
+}
+
+@media screen and (min-width: 767px) {
+  .hero-banner {
+    height: 637px;
+  }
+
+  .explore-container {
+    max-width: 1110px;
+  }
+
+  .explore-heading {
+    text-align: left;
+  }
+}

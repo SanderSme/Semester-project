@@ -43,6 +43,7 @@ h5 {
   padding-bottom: 0.5rem;
   border-bottom: 2px solid #fff;
   width: 100%;
+  text-align: center;
 }
 
 .text {
@@ -117,7 +118,7 @@ h5 {
   background-color: #00000095;
   border-radius: 20px;
   position: absolute;
-  top: 20%;
+  top: 22%;
 }
 
 .home-page-button {
@@ -127,14 +128,34 @@ h5 {
   text-decoration: none;
   color: #000;
   border-radius: 20px;
-  border: 1px solid #000;
+  border: 3px solid #00000000;
+}
+
+.home-page-button:hover {
+  text-decoration: underline;
+  border: 3px solid #000;
 }
 
 .exhibition-button {
   padding: 1rem;
 }
 
+.special-events {
+  background-image: url("../assets/img/special-events-banner.png");
+  height: 543px;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  filter: blur(4px);
+}
+
 @media screen and (min-width: 767px) {
+  .heading {
+    text-align: left;
+  }
+
   .mobile-only {
     display: none;
   }

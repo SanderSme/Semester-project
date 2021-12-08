@@ -1,3 +1,11 @@
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
 .about-container {
   max-width: 93%;
   margin: 0 auto;
@@ -28,7 +36,7 @@
 }
 
 .sub-heading {
-  margin-top: 3rem;
+  margin-top: 4rem;
 }
 
 .location {
@@ -44,13 +52,22 @@
   margin-left: 2rem;
 }
 
+.location-pic {
+  margin-top: 4rem;
+}
+
 .about-button {
   padding: 1rem 3.2rem;
   background-color: #f2d272;
   text-decoration: none;
   color: #000;
   border-radius: 20px;
-  border: 1px solid #000;
+  border: 3px solid #00000000;
+}
+
+.about-button:hover {
+  text-decoration: underline;
+  border: 3px solid #000;
 }
 
 .info {
@@ -66,10 +83,21 @@
 .cafe-pic {
   width: 50%;
   height: 50%;
-  margin: 3rem 2rem 2rem 0;
+  margin: 4rem 2rem 2rem 0;
+}
+
+.cafe-info {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-left: 0.5rem;
 }
 
 @media screen and (min-width: 767px) {
+  .heading {
+    text-align: left;
+  }
+
   .admission-opening-hours-flex-container {
     display: flex;
     flex-direction: row;
@@ -109,6 +137,7 @@
 
   .sub-heading {
     text-align: center;
+    margin-top: 8rem;
   }
 
   .location {
@@ -126,10 +155,12 @@
 
   .cafe-pic {
     width: 30%;
+    margin-right: 0;
   }
 
   .cafe-info {
     width: 40%;
+    margin-left: 0;
   }
 
   .cafe {
