@@ -6,10 +6,13 @@ h3 {
   font-size: 20px;
 }
 
+h4 {
+  font-size: 20px;
+}
+
 .about-container {
   max-width: 93%;
   margin: 0 auto;
-  text-align: center;
 }
 
 .heading {
@@ -18,8 +21,14 @@ h3 {
   width: 100%;
 }
 
-.slogan {
-  margin-top: -1rem;
+.community-heading {
+  text-align: left;
+  margin-top: 4rem;
+}
+
+.visit-heading {
+  text-align: center;
+  margin-top: 4rem;
 }
 
 .text {
@@ -28,32 +37,11 @@ h3 {
 
 .info {
   text-align: left;
-  margin-bottom: 2rem;
+  margin-bottom: 4rem;
 }
 
 .link {
   color: #f2d272;
-}
-
-.sub-heading {
-  margin-top: 4rem;
-}
-
-.location {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-.location-info {
-  display: flex;
-  flex-direction: column;
-  text-align: left;
-  margin-left: 2rem;
-}
-
-.location-pic {
-  margin-top: 4rem;
 }
 
 .about-button {
@@ -70,104 +58,70 @@ h3 {
   border: 3px solid #000;
 }
 
-.info {
-  text-align: left;
+.button {
+  text-align: center;
+  margin: 4rem 0;
 }
 
-.cafe {
+.row {
   display: flex;
+  flex-direction: column;
+}
+
+.horisontal {
   flex-direction: row;
-  justify-content: space-between;
+}
+
+.column {
+  margin: 1rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.horisontal .column:first-of-type {
+  margin-right: 2rem;
+}
+
+.map {
+  width: 100%;
 }
 
 .cafe-pic {
-  width: 50%;
-  height: 50%;
-  margin: 4rem 2rem 2rem 0;
-}
-
-.cafe-info {
-  display: flex;
-  flex-direction: column;
-  text-align: left;
-  margin-left: 0.5rem;
+  width: 100%;
 }
 
 @media screen and (min-width: 767px) {
-  .heading {
-    text-align: left;
-  }
-
-  .admission-opening-hours-flex-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-  }
-
-  .accessebility-shop-flex-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-  }
-
   .about-container {
     max-width: 1110px;
   }
 
   .museum-container {
-    width: 50%;
+    width: 60%;
     margin: 0 auto;
-  }
-
-  .admission {
-    width: 40%;
-  }
-
-  .accessibility {
-    width: 40%;
-  }
-
-  .shop {
-    width: 40%;
-  }
-
-  .opening-hours {
-    width: 30%;
-  }
-
-  .sub-heading {
-    text-align: center;
-    margin-top: 8rem;
-  }
-
-  .location {
-    justify-content: space-around;
-    width: 30%;
-  }
-
-  .location-info {
-    margin-left: 1rem;
   }
 
   .visit-heading {
     text-align: center;
   }
 
+  .row {
+    margin: 4rem auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 4rem;
+  }
+
+  .column {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .map {
+    width: 50%;
+  }
+
   .cafe-pic {
-    width: 30%;
-    margin-right: 0;
-  }
-
-  .cafe-info {
-    width: 40%;
-    margin-left: 0;
-  }
-
-  .cafe {
-    justify-content: space-around;
-  }
-
-  .info {
-    margin-left: 1rem;
+    width: 90%;
   }
 }

@@ -2,6 +2,7 @@
   width: 100%;
   background-color: #333;
   padding: 0.5rem 0;
+  border-bottom: 1px solid #000;
 }
 
 .header-content {
@@ -126,7 +127,7 @@
 
 #light-switch:checked + .theme .header {
   background-color: #f2f2f2;
-  border-bottom: 1px solid #000;
+  /* border-bottom: 1px solid #000; */
 }
 
 #light-switch:checked + .theme .header .logo-black {
@@ -169,6 +170,7 @@
 
   .navigation-desktop {
     position: relative;
+    align-self: flex-end;
   }
 
   .navigation-item {
@@ -201,7 +203,7 @@
     list-style-type: none;
     flex-direction: column;
     right: 0;
-    top: 1.67rem;
+    top: 0.7rem;
   }
 
   .dropdown-menu-desktop li {
