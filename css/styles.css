@@ -301,4 +301,8 @@ h5 {
   .event-info {
     font-size: 18px;
   }
+
+  .event-content span {
+    top: 4rem;
+  }
 }
