@@ -39,6 +39,7 @@
 }
 
 .app-navigation-drawer {
+  top: 2.3rem;
   display: none;
   background: #333;
   padding: 1em;
