@@ -171,7 +171,19 @@ h5 {
   padding: 2rem 0;
 }
 
-.event-pics {
+.events-heading {
+  color: #fff;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #fff;
+  width: 100%;
+  text-align: center;
+}
+
+.event-info {
+  text-align: center;
+}
+
+.special-events-pics {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -212,18 +224,6 @@ h5 {
 
 .read-more-button {
   padding: 1rem 2.5rem;
-}
-
-.events-heading {
-  color: #fff;
-  padding-bottom: 0.5rem;
-  border-bottom: 2px solid #fff;
-  width: 100%;
-  text-align: center;
-}
-
-.event-info {
-  text-align: center;
 }
 
 @media screen and (min-width: 767px) {
@@ -279,10 +279,6 @@ h5 {
 
   .event-content:last-of-type {
     margin: 0;
-  }
-
-  .event-pics {
-    justify-content: space-between;
   }
 
   .event-pic {

@@ -10,6 +10,10 @@
   margin-top: 2rem;
 }
 
+.form {
+  font-size: 1rem;
+}
+
 .names {
   display: flex;
   flex-direction: row;
