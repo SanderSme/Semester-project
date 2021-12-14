@@ -210,11 +210,19 @@ h5 {
   justify-content: center;
 }
 
+.read-more-button {
+  padding: 1rem 2.5rem;
+}
+
 .events-heading {
   color: #fff;
   padding-bottom: 0.5rem;
   border-bottom: 2px solid #fff;
   width: 100%;
+  text-align: center;
+}
+
+.event-info {
   text-align: center;
 }
 
@@ -265,8 +273,20 @@ h5 {
     max-width: 1110px;
   }
 
-  .event-pic {
+  .event-content {
     width: 30%;
+  }
+
+  .event-content:last-of-type {
+    margin: 0;
+  }
+
+  .event-pics {
+    justify-content: space-between;
+  }
+
+  .event-pic {
+    width: 100%;
     padding: 1rem;
   }
 
@@ -276,5 +296,9 @@ h5 {
 
   .events-heading {
     text-align: left;
+  }
+
+  .event-info {
+    font-size: 18px;
   }
 }
