@@ -95,15 +95,15 @@
         <div class="contact-container">
           <h1 class="heading text">Contact</h1>
           <h3 class="sub-heading text">Write to us:</h3>
+          <div class="submit-container">
+            <div class="submitted"></div>
+          </div>
           <form
             name="contact-form"
             class="contact-form"
             action="#"
             onsubmit="return false"
           >
-            <div class="submit-container">
-              <div class="submitted"></div>
-            </div>
             <div class="form-info">
               <p class="text">What is your title?</p>
               <div class="error-message" id="title-error"></div>
@@ -173,6 +173,7 @@
               <button class="send-button" onclick="validateForm()">Send</button>
             </div>
           </form>
+          <div class="back-button"></div>
           <h3 class="sub-heading text call-visit">Call or visit:</h3>
           <div class="contact-info">
             <p class="phone-address text">Phone: 12345678</p>

@@ -14,6 +14,8 @@ function validateForm() {
   const lastNameError = document.getElementById("lastName-error");
   const messageError = document.getElementById("message-error");
   const submitted = document.querySelector(".submitted");
+  const completeForm = document.querySelector(".contact-form");
+  const backButton = document.querySelector(".back-button");
 
   if (title === "--") {
       titleError.innerHTML = "Please select a title"
@@ -50,5 +52,7 @@ function validateForm() {
       messageError.innerHTML = ""
   }
   submitted.innerHTML = "Message sent"
+  completeForm.innerHTML = "";
+  backButton.innerHTML = "<a href=index.html class=home-page-button>Back to homepage</a>"
   return true;
 }

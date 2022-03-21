@@ -99,17 +99,10 @@ button {
   top: 18.5rem;
 }
 
-.submit.container {
-  position: relative;
-  display: flex;
-  justify-content: center;
-}
-
 .submitted {
-  position: absolute;
   color: green;
-  font-size: 18px;
-  top: 12.5rem;
+  font-size: 30px;
+  margin: 5rem 0;
 }
 
 .call-visit {
