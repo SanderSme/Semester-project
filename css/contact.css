@@ -33,7 +33,6 @@ button {
   position: relative;
   display: flex;
   flex-direction: column;
-  margin-top: 2rem;
 }
 
 .form {
@@ -100,7 +99,7 @@ button {
 }
 
 .submitted {
-  color: green;
+  color: #7d7;
   font-size: 30px;
   margin: 5rem 0;
 }
