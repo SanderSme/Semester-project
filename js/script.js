@@ -3,16 +3,24 @@ function validateForm() {
   let firstName = document.forms["contact-form"]["first-name"].value;
   let lastName = document.forms["contact-form"]["last-name"].value;
   let message = document.forms["contact-form"]["message"].value;
+  let title = document.forms['contact-form']['title'].value;
 
   let atposition = email.indexOf("@");
   let dotposition = email.lastIndexOf(".");
 
+  const titleError = document.getElementById("title-error");
   const emailError = document.getElementById("email-error");
   const firstNameError = document.getElementById("firstName-error");
   const lastNameError = document.getElementById("lastName-error");
   const messageError = document.getElementById("message-error");
   const submitted = document.querySelector(".submitted");
 
+  if (title === "--") {
+      titleError.innerHTML = "Please select a title"
+      return false;
+  } else {
+      titleError.innerHTML = "";
+  }
   if (
     atposition < 1 ||
     dotposition < atposition + 2 ||
