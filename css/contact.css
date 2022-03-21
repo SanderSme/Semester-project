@@ -25,6 +25,10 @@ button {
   text-align: center;
 }
 
+.title {
+  margin-top: 3.5rem;
+}
+
 .form-info {
   position: relative;
   display: flex;
