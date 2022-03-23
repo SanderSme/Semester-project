@@ -1,0 +1,139 @@
+.store-container {
+  margin: 0 auto;
+  width: 93%;
+  text-align: center;
+}
+
+.booking-line {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin: 5rem 0;
+  align-items: center;
+}
+
+.title {
+  font-size: 20px;
+}
+
+.price {
+  font-size: 18px;
+}
+
+.cart-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cart-title {
+  border-bottom: 1px solid white;
+}
+
+#item {
+  width: 35%;
+}
+
+#price {
+  width: 20%;
+}
+
+#quantity {
+  width: 35%;
+}
+
+.title-age {
+  width: 33%;
+}
+
+.price {
+  width: 33%;
+}
+
+.add-to-cart {
+  padding: 1rem 3.2rem;
+  background-color: #f2d272;
+  text-decoration: none;
+  color: #000;
+  border-radius: 20px;
+  border: 3px solid #00000000;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 0 auto;
+}
+
+.add-to-cart:hover {
+  text-decoration: underline;
+  border: 3px solid #000;
+}
+
+.cart-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cart-items:last-child {
+  border-bottom: 1px solid white;
+}
+
+.cart-quantity-input {
+  height: 34px;
+  width: 70px;
+  border-radius: 5px;
+  border: 1px solid #000000;
+  background-color: #eee;
+  color: #333;
+  padding: 0;
+  text-align: center;
+  font-size: 1.2em;
+  margin-right: 25px;
+}
+
+.btn-remove {
+  padding: 0.5rem 2rem;
+  background-color: #a53838;
+  text-decoration: none;
+  color: #eee;
+  border-radius: 10px;
+  border: 3px solid #00000000;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.btn-remove:hover {
+  text-decoration: underline;
+  border: 3px solid #000;
+}
+
+.cart-total {
+  text-align: end;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.cart-total-title {
+  font-weight: bold;
+  font-size: 1.5em;
+  margin-right: 20px;
+}
+
+.cart-total-price {
+  font-size: 1.1em;
+}
+
+.cart-item-quantity {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+@media screen and (min-width: 767px) {
+  .store-container {
+    max-width: 1110px;
+    text-align: left;
+  }
+}

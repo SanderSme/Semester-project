@@ -5,8 +5,8 @@ function validateForm() {
   let message = document.forms["contact-form"]["message"].value;
   let title = document.forms['contact-form']['title'].value;
 
-  let atposition = email.indexOf("@");
-  let dotposition = email.lastIndexOf(".");
+  let atPosition = email.indexOf("@");
+  let dotPosition = email.lastIndexOf(".");
 
   const titleError = document.getElementById("title-error");
   const emailError = document.getElementById("email-error");
@@ -24,9 +24,9 @@ function validateForm() {
       titleError.innerHTML = "";
   }
   if (
-    atposition < 1 ||
-    dotposition < atposition + 2 ||
-    dotposition + 2 >= email.length
+    atPosition < 1 ||
+    dotPosition < atPosition + 2 ||
+    dotPosition + 2 >= email.length
   ) {
     emailError.innerHTML = "Please enter correct E-Mail ID";
     return false;
@@ -53,6 +53,6 @@ function validateForm() {
   }
   submitted.innerHTML = "Message sent"
   completeForm.innerHTML = "";
-  backButton.innerHTML = "<a href=index.html class=home-page-button>Back to homepage</a>"
+  backButton.innerHTML = `<a href="index.html" class="home-page-button">Back to homepage</a>`
   return true;
 }

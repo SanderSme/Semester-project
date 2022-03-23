@@ -14,6 +14,8 @@
     <link rel="stylesheet" href="./css/styles.css" />
     <link rel="stylesheet" href="./css/header.css" />
     <link rel="stylesheet" href="./css/footer.css" />
+    <link rel="stylesheet" href="./css/store.css" />
+    <script src="./js/store.js" async defer></script>
     <!-- Hotjar Tracking Code for https://pensive-poincare-1a7756.netlify.app/ -->
     <script>
       (function (h, o, t, j, a, r) {
@@ -56,7 +58,7 @@
                 <li><a href="special-events.html">Special events</a></li>
                 <li><a href="contact.html">Contact</a></li>
                 <li><a href="about-us.html">About us</a></li>
-                <li><a href="store.html">Book tickets</a></li>
+                <li><a href="#">Book tickets</a></li>
               </ul>
             </div>
           </div>
@@ -86,90 +88,66 @@
               <li><a href="exhibition-spaces.html">Exhibition spaces</a></li>
               <li><a href="special-events.html">Special events</a></li>
               <li><a href="contact.html">Contact</a></li>
-              <li><a href="store.html">Book tickets</a></li>
+              <li><a href="#">Book tickets</a></li>
             </ul>
           </div>
         </div>
       </header>
       <main>
-        <div class="hero-banner">
-          <img
-            class="logo-hero-banner"
-            src="./assets/img/logo-svg-black.svg"
-            alt="museum logo"
-          />
-          <div class="overlay"></div>
-        </div>
-        <div class="flex-container">
-          <section class="explore-exhibition">
-            <img
-              src="./assets/img/explore-small.jpg"
-              alt="explore"
-              class="home-page-pic"
-            />
-            <p class="explore-exhibition-info">
-              Come join us at the Community Science Museum where we’re committed
-              to making science accessible to all.
-            </p>
-            <a href="explore.html" class="home-page-button">Explore</a>
-          </section>
-          <section class="explore-exhibition">
-            <img
-              src="./assets/img/exhibition-spaces-2.jpg"
-              alt="exhibition-spaces"
-              class="home-page-pic"
-            />
-            <p class="explore-exhibition-info">
-              We have specialized ourself in five different spaces. Find your
-              favorites here!
-            </p>
-            <a
-              href="exhibition-spaces.html"
-              class="home-page-button exhibition-button"
-              >Exhibition spaces</a
-            >
-          </section>
-        </div>
-        <div class="special-events">
-          <div class="special-events-background"></div>
-          <div class="special-events-content">
-            <h1 class="events-heading">Special events</h1>
-            <div class="special-events-pics">
-              <div class="event-content">
-                <img
-                  src="./assets/img/aero-events.png"
-                  alt="aeronautics"
-                  class="event-pic"
-                />
-                <span class="event-info"
-                  >Visiting Professor of Aeronautics</span
-                >
-              </div>
-              <div class="event-content">
-                <img
-                  src="./assets/img/night-events.png"
-                  alt="night-at-the-museum"
-                  class="event-pic"
-                />
-                <span class="event-info">Night in the museum</span>
-              </div>
-              <div class="event-content">
-                <img
-                  src="./assets/img/energy-events.png"
-                  alt="energy"
-                  class="event-pic energy-pic"
-                />
-                <span class="event-info">Energetica Exhibition on Loan</span>
-              </div>
+        <div class="store-container">
+          <h1 class="heading text">Book tickets</h1>
+          <div class="booking-line">
+            <div class="title-age">
+              <p class="title text">Kids</p>
+              <p class="age text">0-9 y/o</p>
             </div>
-            <div class="read-more">
-              <a
-                href="./special-events.html"
-                class="home-page-button read-more-button"
-                >Read more</a
-              >
-            </div>
+            <p class="price text">Free</p>
+            <div></div>
           </div>
+          <div class="booking-line">
+            <div class="title-age">
+              <p class="title text">Youth</p>
+              <p class="age text">10-17 y/o</p>
+            </div>
+            <p class="price text">$10</p>
+            <button class="add-to-cart">Add to cart</button>
+          </div>
+          <div class="booking-line">
+            <div class="title-age">
+              <p class="title text">Addult</p>
+              <p class="age text">18-65 y/o</p>
+            </div>
+            <p class="price text">$15</p>
+            <button class="add-to-cart">Add to cart</button>
+          </div>
+          <div class="booking-line">
+            <div class="title-age">
+              <p class="title text">Senior</p>
+              <p class="age text">66- y/o</p>
+            </div>
+            <p class="price text">$12</p>
+            <button class="add-to-cart">Add to cart</button>
+          </div>
+          <div class="booking-line">
+            <div class="title-age">
+              <p class="title text">Class</p>
+              <p class="age text">1 teacher, 10 students</p>
+            </div>
+            <p class="price text">$85</p>
+            <button class="add-to-cart">Add to cart</button>
+          </div>
+          <h1 class="heading text">Shopping cart</h1>
+          <div class="cart-heading">
+            <h3 class="cart-title text heading" id="item">Item</h3>
+            <h3 class="cart-title text heading" id="price">Price</h3>
+            <h3 class="cart-title text heading" id="quantity">Quantity</h3>
+          </div>
+          <div class="cart-lines"></div>
+          <div class="cart-total">
+            <strong class="cart-total-title text">Total</strong>
+            <div class="cart-total-price text">$0</div>
+          </div>
+          <button class="btn-purchase" type="button">Book</button>
         </div>
       </main>
       <footer class="footer">
