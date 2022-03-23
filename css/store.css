@@ -52,7 +52,7 @@
 }
 
 .add-to-cart {
-  padding: 1rem 3.2rem;
+  padding: 0.5rem 2rem;
   background-color: #f2d272;
   text-decoration: none;
   color: #000;
@@ -111,7 +111,6 @@
 .cart-total {
   text-align: end;
   margin-top: 10px;
-  margin-right: 10px;
 }
 
 .cart-total-title {
@@ -129,6 +128,24 @@
   justify-content: space-between;
   flex-wrap: wrap;
   align-items: center;
+}
+
+.btn-purchase {
+  padding: 1rem 3.2rem;
+  background-color: #f2d272;
+  text-decoration: none;
+  color: #000;
+  border-radius: 20px;
+  border: 3px solid #00000000;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 5rem auto;
+  display: flex;
+}
+
+.btn-purchase:hover {
+  text-decoration: underline;
+  border: 3px solid #000;
 }
 
 @media screen and (min-width: 767px) {
