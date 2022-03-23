@@ -104,7 +104,7 @@
             name="contact-form"
             class="contact-form"
             action="#"
-            onsubmit="return false"
+            onsubmit="validateForm(); return false"
           >
             <div class="form-info">
               <p class="text">What is your title?</p>
@@ -172,7 +172,7 @@
               </label>
             </div>
             <div>
-              <button class="send-button" onclick="validateForm()">Send</button>
+              <input type="submit" class="send-button" value="Send"></input>
             </div>
           </form>
           <div class="back-button"></div>

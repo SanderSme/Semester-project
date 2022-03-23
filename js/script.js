@@ -19,7 +19,7 @@ function validateForm() {
 
   if (title === "--") {
       titleError.innerHTML = "Please select a title"
-      return false;
+      
   } else {
       titleError.innerHTML = "";
   }
@@ -29,30 +29,33 @@ function validateForm() {
     dotPosition + 2 >= email.length
   ) {
     emailError.innerHTML = "Please enter correct E-Mail ID";
-    return false;
+    
   } else {
     emailError.innerHTML = "";
   }
-  if (firstName == "") {
+  if (firstName === "") {
     firstNameError.innerHTML = "Please fill in your first name";
-    return false;
+    
   } else {
     firstNameError.innerHTML = "";
   }
-  if (lastName == "") {
+  if (lastName === "") {
     lastNameError.innerHTML = "Please fill in your last name";
-    return false;
+    
   } else {
     lastNameError.innerHTML = "";
   }
   if (message.length < 10) {
-      messageError.innerHTML = "Message must be atleast 10 characters"
-      return false
+      messageError.innerHTML = "Message must be at least 10 characters"
+    
   } else {
       messageError.innerHTML = ""
   }
-  submitted.innerHTML = "Message sent"
+  if (title !== "--" && atPosition > 1 &&
+    dotPosition > atPosition + 2 &&
+    dotPosition + 2 <= email.length && firstName && lastName && message.length > 10) {
+      submitted.innerHTML = "Message sent"
   completeForm.innerHTML = "";
   backButton.innerHTML = `<a href="index.html" class="home-page-button">Back to homepage</a>`
-  return true;
+    }
 }
