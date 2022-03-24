@@ -19,7 +19,6 @@ for (var i = 0; i < addToCartBtns.length; i++) {
 document.querySelector('.btn-purchase').addEventListener('click', purchaseClicked)
 
 function purchaseClicked() {
-    alert('thank you for your booking')
     let cartItems = document.querySelector('.cart-lines')
     while (cartItems.hasChildNodes()) {
         cartItems.removeChild(cartItems.firstChild)
