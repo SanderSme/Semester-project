@@ -67,6 +67,10 @@ h5 {
   border-bottom: 2px solid #000;
 }
 
+#light-switch:checked + .theme .cart-items {
+  border-bottom: 1px solid #000;
+}
+
 #light-switch:checked + .theme .link {
   color: #163a59;
 }

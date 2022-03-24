@@ -111,6 +111,9 @@
 .cart-total {
   text-align: end;
   margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .cart-total-title {
