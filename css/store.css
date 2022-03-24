@@ -131,7 +131,7 @@
 }
 
 .btn-purchase {
-  padding: 1rem 3.2rem;
+  /* padding: 1rem 3.2rem; */
   background-color: #f2d272;
   text-decoration: none;
   color: #000;
@@ -146,6 +146,7 @@
 #btn-purchase {
   text-decoration: none;
   color: #000;
+  padding: 1rem 3.2rem;
 }
 
 .btn-purchase:hover {

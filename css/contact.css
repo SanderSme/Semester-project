@@ -25,6 +25,16 @@ button {
   text-align: center;
 }
 
+.form-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+#contact-form-container {
+  top: 20rem;
+}
+
 .title {
   margin-top: 3.5rem;
 }
@@ -56,12 +66,6 @@ button {
   width: 100%;
 }
 
-.form-container {
-  position: relative;
-  display: flex;
-  justify-content: center;
-}
-
 .contact-form {
   margin: 0 auto;
   width: 80%;
@@ -76,7 +80,7 @@ button {
 
 .message {
   height: 15rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 .send-button {
@@ -126,7 +130,7 @@ button {
 }
 
 .call-visit {
-  margin-top: 6rem;
+  margin-top: 20rem;
 }
 
 .contact-info {
