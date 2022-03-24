@@ -56,9 +56,17 @@ button {
   width: 100%;
 }
 
+.form-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
 .contact-form {
   margin: 0 auto;
   width: 80%;
+  position: absolute;
+  bottom: 2rem;
 }
 
 .form-title {
@@ -99,10 +107,16 @@ button {
   top: 18.5rem;
 }
 
+.submit-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20rem;
+}
+
 .submitted {
   color: #7d7;
   font-size: 30px;
-  margin: 5rem 0 2rem 0;
+  margin: 5rem 0 5rem 0;
 }
 
 .submitted-text {

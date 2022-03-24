@@ -143,6 +143,11 @@
   display: flex;
 }
 
+#btn-purchase {
+  text-decoration: none;
+  color: #000;
+}
+
 .btn-purchase:hover {
   text-decoration: underline;
   border: 3px solid #000;
