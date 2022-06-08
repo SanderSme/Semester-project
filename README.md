@@ -4,16 +4,17 @@
 
 ## Description
 
-Community science museum is a fictional science museum that i made a website for for my semester project, first semester at Noroff. The site contains a homepage, a list of exhibitions, an about us page, a contact page, a shop, and an explore page. It also contains a dark/light-mode function made in HTML and CSS.
+Community science museum is a fictional science museum that i made a website for for my semester project, first semester at Noroff. The site contains a homepage, a list of exhibitions, an about us page, a contact page, a shop, and an explore page. It also contains a dark/light-mode function made in HTML and CSS. The JavaScript on this project was added later to validate the contact form, and create a shop.
 
 - Blog made as my semester project
-- Coded in HTML and CSS
+- Coded in HTML, CSS and JavaScript
 - Dark/light-mode function made in HTML and CSS
 
 ## Built With
 
 - HTML
 - CSS
+- JavaScript
 
 ## Getting Started
 
